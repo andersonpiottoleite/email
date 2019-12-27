@@ -61,7 +61,7 @@ public class EmailApplication implements CommandLineRunner {
     	
     	StringBuilder emails = new StringBuilder();
     	
-    	int qtdeLimitEmails = 1000;
+    	int qtdeLimitEmails = 1000; 
     	
     	while (scanner.hasNext()) {
     		emails.append(scanner.nextLine());
